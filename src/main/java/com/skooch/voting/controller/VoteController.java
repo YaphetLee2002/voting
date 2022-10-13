@@ -25,7 +25,6 @@ public class VoteController {
 
     @Autowired
     private Web3j web3j; //注入web3对象
-
     @RequestMapping("/voteFor/{address}")
     @ResponseBody
     public ModelAndView vote(@PathVariable("address") String address, String candidate, String privateKey) throws Exception { //将post参数直接作为形参接受
