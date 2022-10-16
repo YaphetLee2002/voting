@@ -3,11 +3,15 @@ package com.skooch.voting;
 import com.skooch.voting.model.VoteSummary;
 import com.skooch.voting.service.impl.ContractServiceImpl;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.web3j.crypto.Credentials;
 
 @SpringBootTest
 class VotingApplicationTests {
+
+    @Autowired
+    private ContractServiceImpl contractService;
 
     @Test
     void contextLoads() {
@@ -17,7 +21,6 @@ class VotingApplicationTests {
 
     @Test
     public void test(){
-        ContractServiceImpl contractService = new ContractServiceImpl();
         VoteSummary voteSummary = new VoteSummary();
         voteSummary.setName("竞选主席");
         voteSummary.setWinner("小明");

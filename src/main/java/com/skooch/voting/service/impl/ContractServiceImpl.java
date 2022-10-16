@@ -12,13 +12,12 @@ import java.util.List;
 public class ContractServiceImpl implements ContractService {
 
     @Autowired
-    ContractMapper contractMapper;
+    private ContractMapper contractMapper;
 
 
     @Override
     public List<VoteSummary> getAllContract() {
-        List<VoteSummary> allContracts = contractMapper.getAllContract();
-        return allContracts;
+        return contractMapper.getAllContract();
     }
 
     @Override

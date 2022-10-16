@@ -32,7 +32,7 @@ public class ContractController {
     @Autowired
     private Web3j web3j;
     @Autowired
-    ContractService contractService;
+    private ContractService contractService;
 
     @RequestMapping("/initVote")
     @ResponseBody

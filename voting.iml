@@ -98,13 +98,13 @@
     <orderEntry type="library" name="Maven: org.attoparser:attoparser:2.0.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.unbescape:unbescape:1.1.6.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.thymeleaf.extras:thymeleaf-extras-java8time:3.0.4.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.web3j:core:4.3.0" level="project" />
-    <orderEntry type="library" name="Maven: org.web3j:abi:4.3.0" level="project" />
-    <orderEntry type="library" name="Maven: org.web3j:utils:4.3.0" level="project" />
-    <orderEntry type="library" name="Maven: org.bouncycastle:bcprov-jdk15on:1.60" level="project" />
-    <orderEntry type="library" name="Maven: org.web3j:crypto:4.3.0" level="project" />
-    <orderEntry type="library" name="Maven: org.web3j:rlp:4.3.0" level="project" />
-    <orderEntry type="library" name="Maven: org.web3j:tuples:4.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.web3j:core:5.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.web3j:abi:5.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.web3j:utils:5.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.bouncycastle:bcprov-jdk15on:1.65" level="project" />
+    <orderEntry type="library" name="Maven: org.web3j:crypto:5.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.web3j:rlp:5.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.web3j:tuples:5.0.0" level="project" />
     <orderEntry type="library" name="Maven: com.github.jnr:jnr-unixsocket:0.21" level="project" />
     <orderEntry type="library" name="Maven: com.github.jnr:jnr-ffi:2.1.9" level="project" />
     <orderEntry type="library" name="Maven: com.github.jnr:jffi:1.2.17" level="project" />
@@ -119,11 +119,6 @@
     <orderEntry type="library" name="Maven: com.github.jnr:jnr-constants:0.9.11" level="project" />
     <orderEntry type="library" name="Maven: com.github.jnr:jnr-enxio:0.19" level="project" />
     <orderEntry type="library" name="Maven: com.github.jnr:jnr-posix:3.0.47" level="project" />
-    <orderEntry type="library" name="Maven: com.squareup.okhttp3:okhttp:4.9.3" level="project" />
-    <orderEntry type="library" name="Maven: com.squareup.okio:okio:2.8.0" level="project" />
-    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-common:1.6.21" level="project" />
-    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib:1.6.21" level="project" />
-    <orderEntry type="library" name="Maven: org.jetbrains:annotations:13.0" level="project" />
     <orderEntry type="library" name="Maven: com.squareup.okhttp3:logging-interceptor:4.9.3" level="project" />
     <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21" level="project" />
     <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.21" level="project" />
@@ -136,5 +131,10 @@
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.36" level="project" />
     <orderEntry type="library" name="Maven: ch.qos.logback:logback-classic:1.2.9" level="project" />
     <orderEntry type="library" name="Maven: ch.qos.logback:logback-core:1.2.9" level="project" />
+    <orderEntry type="library" name="Maven: com.squareup.okhttp3:okhttp:4.3.1" level="project" />
+    <orderEntry type="library" name="Maven: com.squareup.okio:okio:2.4.1" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-common:1.6.21" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib:1.6.21" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains:annotations:13.0" level="project" />
   </component>
 </module>

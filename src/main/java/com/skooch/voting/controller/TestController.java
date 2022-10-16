@@ -19,7 +19,7 @@ public class TestController {
     @Autowired
     private Web3j web3j;
     @Autowired
-    ContractService contractService;
+    private ContractService contractService;
 
     //测试页面
     @RequestMapping("/test")
