@@ -23,9 +23,11 @@
             </th>
             <th th:text="${contract.address}"></th>
             <th th:text="${contract.winner}"></th>
-            <th th:unless="!${contract.state}"><button type="button" class="btn" id="candidatebutton" data-toggle="modal"
+            <th th:unless="!${contract.state}">
+                <button type="button" class="btn" id="candidatebutton" data-toggle="modal"
                     data-target="#exampleModal" th:onclick="save([[${contract.address}]])">终止投票
-            </button></th>
+                </button>
+            </th>
             <th th:unless="${contract.state}"><span>投票已结束</span></th>
         </tr>
         </thead>
