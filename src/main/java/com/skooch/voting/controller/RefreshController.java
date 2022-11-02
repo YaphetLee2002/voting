@@ -18,7 +18,6 @@ public class RefreshController {
     @RequestMapping("/refresh")
     @ResponseBody
     public ModelAndView refresh() throws Exception {
-
         HashMap<String, Integer> map = web3jUtils.checkVotes();
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.addObject("msg", "刷新成功！");
